@@ -1,5 +1,5 @@
 from streamlit import bootstrap
 
-real_script = 'main_script.py'
+real_script = 'main.py'
 
-bootstrap.run(real_script, f'main.py {real_script}', [], {})
+bootstrap.run(real_script, f'run.py {real_script}', [], {})

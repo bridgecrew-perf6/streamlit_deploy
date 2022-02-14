@@ -1,11 +1,3 @@
-import streamlit as st
+from utils.multipage import multi_app
 
-st.title("Body Mass Index")
-
-# input number
-st.write("""
-# Input number
-""")
-number = st.number_input("Number", value=0, min_value=0, max_value=100)
-st.write(f"You entered: {number}")
-
+multi_app.run()
